@@ -2,8 +2,8 @@
 
 
 def lookahead(token, i):
-    if i+1 < len(token):
-        return token[i+1]
+    if i + 1 < len(token):
+        return token[i + 1]
     else:
         return ''
 
@@ -15,10 +15,13 @@ def is_valid_match(token, pattern):
             return True
         if pattern[j] == c:
             j = j + 1
-        elif pattern[j] == '*':
-            j = j + 1
         elif pattern[j] == '?':
             j = j + 1
+        elif pattern[j] == '*':
+            if i + 1 == len(token):
+                return True
+            elif lookahead(pattern, j) == lookahead(token, i):
+                j = j + 1
         else:
             j = 0
 
