@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/longest-common-subsequence/
 
+
 def lcs(a, b):
     buffer = ''
     a, b = list(a), list(b)
