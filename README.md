@@ -6,6 +6,5 @@ Solution for some of "hard" or interesting Leetcode questions I solved in python
 - [longest-common-subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 - [wildcard-matching](https://leetcode.com/problems/wildcard-matching/)
 - [number-of-islands](https://leetcode.com/problems/number-of-islands/)
-- kth-smallest/largest in list
-- kth-smallest/largest in BST
+- kth-smallest/largest in list/BST
 - Tree parser
