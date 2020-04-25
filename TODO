@@ -1,0 +1,11 @@
+find a judge, node such that everyone knows this person but he doesn't know everyone
+[ (A, B) ]
+directed graph
+
+design a load balancer.
+  - use min-heap
+  - refresh status
+  - send traffic to the node
+  
+given a root of BST, target node and k distance find a list of nodes such that they are within k distance of target in any direction
+  - nodes don't have parent property, create parent property
